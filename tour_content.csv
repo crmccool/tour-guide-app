@@ -1,0 +1,58 @@
+﻿menu_order,menu_label,display_title,overview,talking_points,source_notes
+1,Campus Overview,Campus / U-M Overview,"The University of Michigan in Ann Arbor is a major public research university with about 32,000 undergraduate students and 17,000 graduate students. It offers 275 degree programs across 19 schools and colleges.","• U-M is one of the nation’s leading public research universities.
+• Total university research expenditures reached $2.1 billion in 2025.
+• A substantial share of that research activity is connected to the Medical School.
+• About 42% of total university research expenditures were tied to the Medical School, according to the source text.",Built from pasted source text supplied by user.
+2,Medical School,Medical School,"The University of Michigan Medical School opened in 1850, and its first graduates completed the program in 1852.","• U-M opened the first university-owned medical facility/hospital in the United States in 1869.
+• The Medical School has a long history and an important record of inclusion, including its first female graduate in 1871 and first African American graduate in 1873.
+• Current enrollment is about 665 students, or roughly 165 per class.
+• The school receives about 9,000 applicants each year and admits fewer than 2%.
+• The alumni network includes more than 19,000 graduates.
+• Tuition when the school opened was $5 per year.
+• Current tuition is listed in the source text as about $53,000 in-state and $69,000 out-of-state.
+• About 51% of students are in-state.","For tours, this section can be used as historical/context framing."
+3,University Hospital,University Hospital,University Hospital is the main adult hospital building on campus and opened in 1986. It has 550 patient beds across six floors.,"• University Hospital is one of the core clinical anchors of the Ann Arbor medical campus.
+• It represents a substantial share of the inpatient capacity in Ann Arbor.
+• Ann Arbor as a whole has about 1,200 beds, including 550 at University Hospital, 340 at Mott, and 260 at the Pavilion.",Keep building name consistent as 'University Hospital' in app navigation.
+4,Rogel Cancer Center,Rogel Cancer Center,"The Rogel Cancer Center opened in 1997 and was supported by a $150 million gift, described in the source text as the largest ever to Michigan Medicine and one of the largest gifts to the university.","• The center is a major destination for adult outpatient cancer care.
+• It combines patient care and research in one building.
+• The building has no inpatient rooms, which helps clarify its role for visitors.
+• The top five floors are devoted to research labs.
+• The first four floors house adult outpatient cancer care.
+• Features include 18 multidisciplinary clinics, outpatient surgery suites, a patient education center, a Skin Cancer Unit, an Early-Phase Clinical Trials Unit, and a cancer survivors art gallery.
+• The center records about 130,000 outpatient visits annually, including 63,000 infusion visits and 4,590 radiation oncology consultations.
+• The source text describes the center as No. 1 in Michigan and No. 15 in the nation.",Name standardized here as 'Rogel Cancer Center' per user preference.
+5,Frankel Cardiovascular Center,Frankel Cardiovascular Center,"The Samuel and Jean Frankel Cardiovascular Center is a 350,000-square-foot, multidisciplinary cardiovascular facility that opened in 2007.","• The center brings together cardiac surgery, vascular surgery, and thoracic surgery.
+• It supports a high-volume outpatient practice, with about 75,300 clinic visits each year.
+• The facility includes specialized operating rooms for cardiac, thoracic, vascular, and vascular/imaging procedures.
+• The facility includes a patient library designed to provide health and wellness information in patient-friendly language.
+• Library topics include diseases and conditions, treatment methods, healthy lifestyles, stress reduction, and disease prevention.
+• As a fully functioning library, visitors can select materials on site or check out books to take with them.
+• Pre-paid mailers are available to make returns easy.",Includes user-added patient library talking point.
+6,Mott / Von Voigtlander,C.S. Mott Children’s Hospital / Von Voigtlander Women’s Hospital,C.S. Mott Children’s Hospital and Von Voigtlander Women’s Hospital share the same physical building. The facility opened in 2011 and includes 342 private patient rooms in a 1.1 million-square-foot building.,"• Mott is one of three pediatric Level 1 trauma centers in Michigan.
+• Von Voigtlander Women’s Hospital is located within the building on level 9.
+• The women’s hospital performs more than 5,200 births each year.
+• It includes 50 private labor and delivery rooms, with baby staying with mother, as well as a 52-bed NICU.
+• Outpatient services on level 9 include the OB/Gyn Clinic and the Fetal Diagnostic Center.
+• The Fetal Diagnostic Center sees about 15,000 appointments annually.
+• The hospital is named for donor Charles Stewart Mott and the Von Voigtlander family.
+• The vegetative roof includes nine species of plants native to the region.
+• The Charles Woodson Lobby on level 2 is named for the Michigan football star, retired NFL player, and Heisman Trophy winner, who donated $2 million to support the Charles Woodson Clinical Research Fund.
+• A butterfly garden was installed in 2016.
+• The butterfly installation was created by artist Paul Villinski using rescued Arizona Iced Tea cans collected from the building site; some were painted with leftover building paint.
+• The terrazzo floor artwork, 'Fossil,' was created by artist Michelle Oka Doner and was inspired by Nichols Arboretum and the idea of glacial shift.
+• The source text notes that the Michigan Game Day Experience room may be shown during tours, and that guides should stop at the GSS desk on level 8 to have it opened.",Combined into one physical-stop section per user request.
+7,The Pavilion,The Pavilion,The Pavilion began construction in 2022 and opened in fall 2025. It includes 264 patient rooms.,"• It is one of the newest major additions to the medical campus.
+• Its patient rooms are designed for flexible use, including conversion for intensive care.
+• The Pavilion includes 20 operating rooms designed for high-level neurological, cardiovascular, and thoracic surgeries.",
+8,Med Inn / U-H South,Med Inn / U-H South,The Med Inn is a 30-room hotel located in the heart of the medical campus and operated by Michigan Medicine.,"• It serves families of patients having surgery or staying in an ICU, as well as seniors and patients or visitors with special needs.
+• Guests receive continental breakfast delivered to their rooms through bellman service, with hours varying.
+• Rooms include one or two queen beds, a microwave, refrigerator, and flat-screen TV.
+• U-H South is the former Children’s Hospital.
+• It has since been converted to faculty office space and selected outpatient services, including neurology and speech pathology.",
+9,Health System,Health System at a Glance,"Michigan Medicine includes 2,250 beds across 12 hospitals throughout the state.","• The outpatient network includes 150 specialty clinics at 40 locations in Michigan and northern Ohio.
+• The system records about 2.9 million outpatient visits annually.
+• In Ann Arbor, annual activity includes about 49,000 discharges, 111,000 emergency/urgent care visits, and 56,000 surgical procedures.
+• The Ann Arbor campus includes about 26,000 employees, 4,200 faculty, and 1,200 residents.
+• UM Health-Sparrow in Lansing: 845 beds.
+• UM Health-West in Grand Rapids: 210 beds.",Useful as a systemwide context page rather than a physical stop.
