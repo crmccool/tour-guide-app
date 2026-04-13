@@ -2,7 +2,7 @@
 1,Campus Overview,Campus / U-M Overview,"The University of Michigan in Ann Arbor is a major public research university with about 32,000 undergraduate students and 17,000 graduate students. It offers 275 degree programs across 19 schools and colleges.","• U-M is one of the nation’s leading public research universities.
 • Total university research expenditures reached $2.1 billion in 2025.
 • A substantial share of that research activity is connected to the Medical School.
-• About 42% of total university research expenditures were tied to the Medical School, according to the source text.",Built from pasted source text supplied by user.
+• About 42% of total university research expenditures were tied to the Medical School.",Built from pasted source text supplied by user.
 2,Medical School,Medical School,"The University of Michigan Medical School opened in 1850, and its first graduates completed the program in 1852.","• U-M opened the first university-owned medical facility/hospital in the United States in 1869.
 • The Medical School has a long history and an important record of inclusion, including its first female graduate in 1871 and first African American graduate in 1873.
 • Current enrollment is about 665 students, or roughly 165 per class.
@@ -14,14 +14,14 @@
 3,University Hospital,University Hospital,University Hospital is the main adult hospital building on campus and opened in 1986. It has 550 patient beds across six floors.,"• University Hospital is one of the core clinical anchors of the Ann Arbor medical campus.
 • It represents a substantial share of the inpatient capacity in Ann Arbor.
 • Ann Arbor as a whole has about 1,200 beds, including 550 at University Hospital, 340 at Mott, and 260 at the Pavilion.",Keep building name consistent as 'University Hospital' in app navigation.
-4,Rogel Cancer Center,Rogel Cancer Center,"The Rogel Cancer Center opened in 1997 and was supported by a $150 million gift, described in the source text as the largest ever to Michigan Medicine and one of the largest gifts to the university.","• The center is a major destination for adult outpatient cancer care.
+4,Rogel Cancer Center,Rogel Cancer Center,The Rogel Cancer Center opened in 1997 and was supported by a $150 million gift -- the largest ever to Michigan Medicine and one of the largest gifts to the university.,"• The center is a major destination for adult outpatient cancer care.
 • It combines patient care and research in one building.
 • The building has no inpatient rooms, which helps clarify its role for visitors.
 • The top five floors are devoted to research labs.
 • The first four floors house adult outpatient cancer care.
 • Features include 18 multidisciplinary clinics, outpatient surgery suites, a patient education center, a Skin Cancer Unit, an Early-Phase Clinical Trials Unit, and a cancer survivors art gallery.
 • The center records about 130,000 outpatient visits annually, including 63,000 infusion visits and 4,590 radiation oncology consultations.
-• The source text describes the center as No. 1 in Michigan and No. 15 in the nation.",Name standardized here as 'Rogel Cancer Center' per user preference.
+• The No. 1 in Michigan and No. 15 in the nation.",Name standardized here as 'Rogel Cancer Center' per user preference.
 5,Frankel Cardiovascular Center,Frankel Cardiovascular Center,"The Samuel and Jean Frankel Cardiovascular Center is a 350,000-square-foot, multidisciplinary cardiovascular facility that opened in 2007.","• The center brings together cardiac surgery, vascular surgery, and thoracic surgery.
 • It supports a high-volume outpatient practice, with about 75,300 clinic visits each year.
 • The facility includes specialized operating rooms for cardiac, thoracic, vascular, and vascular/imaging procedures.
@@ -40,8 +40,7 @@
 • The Charles Woodson Lobby on level 2 is named for the Michigan football star, retired NFL player, and Heisman Trophy winner, who donated $2 million to support the Charles Woodson Clinical Research Fund.
 • A butterfly garden was installed in 2016.
 • The butterfly installation was created by artist Paul Villinski using rescued Arizona Iced Tea cans collected from the building site; some were painted with leftover building paint.
-• The terrazzo floor artwork, 'Fossil,' was created by artist Michelle Oka Doner and was inspired by Nichols Arboretum and the idea of glacial shift.
-• The source text notes that the Michigan Game Day Experience room may be shown during tours, and that guides should stop at the GSS desk on level 8 to have it opened.",Combined into one physical-stop section per user request.
+• The terrazzo floor artwork, 'Fossil,' was created by artist Michelle Oka Doner and was inspired by Nichols Arboretum and the idea of glacial shift.",Combined into one physical-stop section per user request.
 7,The Pavilion,The Pavilion,The Pavilion began construction in 2022 and opened in fall 2025. It includes 264 patient rooms.,"• It is one of the newest major additions to the medical campus.
 • Its patient rooms are designed for flexible use, including conversion for intensive care.
 • The Pavilion includes 20 operating rooms designed for high-level neurological, cardiovascular, and thoracic surgeries.",
