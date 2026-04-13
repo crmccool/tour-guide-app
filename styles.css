@@ -1,10 +1,16 @@
 :root {
-  --bg: #ffffff;
-  --text: #111827;
-  --muted: #4b5563;
-  --brand: #0f4c81;
-  --brand-soft: #e6eef7;
-  --border: #d1d5db;
+  --bg: #f7f9fc;
+  --surface: #ffffff;
+  --text: #0f172a;
+  --muted: #475569;
+  --primary: #00274c;
+  --primary-strong: #001a33;
+  --primary-soft: #e8eef6;
+  --accent: #ffcb05;
+  --accent-soft: #fff4c7;
+  --border: #d7dee8;
+  --focus-ring: #2d6db5;
+  --shadow-soft: 0 4px 18px rgba(0, 39, 76, 0.08);
 }
 
 * {
@@ -27,54 +33,71 @@ body {
   align-items: center;
   gap: 0.75rem;
   padding: 0.75rem 1rem;
-  background: var(--brand);
-  color: white;
+  background: linear-gradient(90deg, var(--primary), var(--primary-strong));
+  color: #fff;
+  border-bottom: 3px solid var(--accent);
+  box-shadow: var(--shadow-soft);
 }
 
 .topbar h1 {
   margin: 0;
   font-size: 1.1rem;
+  letter-spacing: 0.01em;
 }
 
 .menu-button {
   min-width: 44px;
   min-height: 44px;
-  border: 2px solid rgba(255, 255, 255, 0.75);
-  border-radius: 0.5rem;
-  background: transparent;
-  color: white;
+  border: 2px solid rgba(255, 255, 255, 0.82);
+  border-radius: 0.55rem;
+  background: rgba(255, 255, 255, 0.08);
+  color: #fff;
   font-size: 1.25rem;
 }
 
 .search-wrap {
   padding: 0.75rem 1rem;
   border-bottom: 1px solid var(--border);
+  background: var(--surface);
 }
 
 #search-input {
   width: 100%;
-  min-height: 46px;
-  padding: 0.65rem 0.85rem;
+  min-height: 48px;
+  padding: 0.65rem 0.9rem;
   border: 2px solid var(--border);
-  border-radius: 0.6rem;
+  border-radius: 0.65rem;
   font-size: 1rem;
+  color: var(--text);
+  background: #fff;
+}
+
+#search-input:focus-visible {
+  outline: 3px solid var(--focus-ring);
+  outline-offset: 2px;
+  border-color: var(--primary);
+}
+
+#search-input::placeholder {
+  color: #64748b;
 }
 
 .layout {
   display: flex;
-  min-height: calc(100vh - 117px);
+  min-height: calc(100vh - 119px);
 }
 
 .drawer {
   position: fixed;
-  inset: 117px auto 0 0;
+  inset: 119px auto 0 0;
   width: min(85vw, 360px);
   border-right: 1px solid var(--border);
-  background: #fff;
+  background: var(--surface);
   transform: translateX(-100%);
   transition: transform 180ms ease-in-out;
   overflow-y: auto;
   padding: 0.75rem;
+  box-shadow: var(--shadow-soft);
 }
 
 .drawer.open {
@@ -83,8 +106,10 @@ body {
 
 .drawer h2 {
   margin: 0.5rem 0.5rem 0.75rem;
-  font-size: 1rem;
-  color: var(--muted);
+  font-size: 0.98rem;
+  color: var(--primary);
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
 }
 
 #location-list {
@@ -95,19 +120,30 @@ body {
 
 .location-item button {
   width: 100%;
-  margin: 0.25rem 0;
-  min-height: 48px;
+  margin: 0.28rem 0;
+  min-height: 50px;
   text-align: left;
   border: 1px solid var(--border);
-  border-radius: 0.6rem;
+  border-radius: 0.65rem;
   background: #fff;
-  padding: 0.65rem 0.75rem;
+  padding: 0.7rem 0.8rem;
   font-size: 0.98rem;
+  color: var(--text);
+}
+
+.location-item button:hover {
+  border-color: #9eb3cb;
+  background: #f8fbff;
+}
+
+.location-item button:active {
+  background: var(--primary-soft);
 }
 
 .location-item button.active {
-  border-color: var(--brand);
-  background: var(--brand-soft);
+  border-color: var(--primary);
+  background: linear-gradient(90deg, var(--primary-soft), #f6f9fd);
+  box-shadow: inset 4px 0 0 var(--accent);
   font-weight: 700;
 }
 
@@ -116,9 +152,28 @@ body {
   padding: 1rem;
 }
 
+.content article {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: 0.8rem;
+  padding: 1rem;
+  box-shadow: 0 2px 10px rgba(15, 23, 42, 0.04);
+}
+
 .content h2 {
   margin-top: 0;
+  margin-bottom: 0.55rem;
   font-size: 1.45rem;
+  color: var(--primary);
+}
+
+.content h3 {
+  margin-top: 1rem;
+  margin-bottom: 0.45rem;
+  color: var(--primary);
+  font-size: 1.05rem;
+  padding-bottom: 0.3rem;
+  border-bottom: 2px solid var(--accent-soft);
 }
 
 .content p {
@@ -133,9 +188,18 @@ body {
   margin-bottom: 0.5rem;
 }
 
+.content li::marker {
+  color: var(--primary);
+}
+
 .empty-state {
   color: var(--muted);
   font-size: 1rem;
+}
+
+:focus-visible {
+  outline: 3px solid var(--focus-ring);
+  outline-offset: 2px;
 }
 
 .sr-only {
@@ -157,7 +221,7 @@ body {
   .layout {
     display: grid;
     grid-template-columns: 330px 1fr;
-    min-height: calc(100vh - 117px);
+    min-height: calc(100vh - 119px);
   }
 
   .drawer {
@@ -166,6 +230,7 @@ body {
     width: auto;
     inset: auto;
     border-right: 1px solid var(--border);
+    box-shadow: none;
   }
 
   .content {
