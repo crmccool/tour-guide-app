@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Michigan Medicine Campus Tour Guide</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="topbar">
+      <button id="menu-button" class="menu-button" aria-label="Open location menu" aria-expanded="false">☰</button>
+      <h1>Campus Tour Guide</h1>
+    </header>
+
+    <div class="search-wrap">
+      <label for="search-input" class="sr-only">Search locations</label>
+      <input id="search-input" type="search" placeholder="Search locations and talking points" autocomplete="off" />
+    </div>
+
+    <main class="layout">
+      <nav id="drawer" class="drawer" aria-label="Locations">
+        <h2>Locations</h2>
+        <ul id="location-list"></ul>
+      </nav>
+
+      <section id="content" class="content" aria-live="polite">
+        <p class="empty-state">Choose a location to view details.</p>
+      </section>
+    </main>
+
+    <script src="app.js"></script>
+  </body>
+</html>
